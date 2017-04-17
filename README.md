@@ -1,7 +1,9 @@
 # grbl-servo
-grbl 0.9i with Servo motor support
 
-GRBL 0.9i with servo motor support.
+THIS IS BASED UPON https://github.com/robottini/grbl-servo and http://github.com/grbl/grbl
+
+grbl 0.9i with Servo motor and Core[X,Y] Configuration of Motion Control 
+
 Use the PIN D11 to drive the servo. 
 Use the commands M03 Sxxx (xxx between 0 and 255) to rotate the servo between 0-180.
 The command M05 turn the servo to zero degrees.
@@ -17,7 +19,7 @@ define RC_SERVO_INVERT     1     // Uncomment to invert servo direction
 If you want to have the servo working from 0 --> 180 degrees change RC_SERVO_SHORT and put 9, RC_SERVO_LONG and put 39
 If you want invert the servo direction uncomment the line above.
 
-I tested the code very well with 328p (Arduino Uno, Duemilanove etv), not with 2560 (Arduino Mega), but I think it would work well also with the Mega.
+I tested the code very well with Atmega328p (Arduino Uno).
 
 -------------------------------------------------------------------
 
