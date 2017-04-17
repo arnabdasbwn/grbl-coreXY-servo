@@ -1,6 +1,6 @@
 # grbl-coreXY-servo
 
-Visit My Project DIY Guide Page : ttp://www.arnabkumardas.com
+Visit My Project DIY Guide Page : http://www.arnabkumardas.com
 
 THIS IS BASED UPON https://github.com/robottini/grbl-servo and http://github.com/grbl/grbl
 
