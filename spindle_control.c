@@ -27,7 +27,7 @@
 
 #define RC_SERVO_SHORT     15       // Timer ticks for 0.6ms pulse duration  (9 for 0.6ms)
 #define RC_SERVO_LONG      32       // Timer ticks for 2.5 ms pulse duration  (39 for 2.5ms)     
-//#define RC_SERVO_INVERT     1     // Uncomment to invert servo direction
+#define RC_SERVO_INVERT     1     // Uncomment to invert servo direction
 
 
 void spindle_init()
